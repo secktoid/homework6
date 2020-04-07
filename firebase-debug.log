@@ -1,0 +1,22 @@
+[debug] [2020-04-07T03:03:16.711Z] ----------------------------------------------------------------------
+[debug] [2020-04-07T03:03:16.713Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\celme\Desktop\IUPUI Spring 2020\N315\Main CMS\treefrog-cms\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2020-04-07T03:03:16.713Z] CLI Version:   7.12.1
+[debug] [2020-04-07T03:03:16.713Z] Platform:      win32
+[debug] [2020-04-07T03:03:16.713Z] Node Version:  v10.16.3
+[debug] [2020-04-07T03:03:16.714Z] Time:          Mon Apr 06 2020 23:03:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-04-07T03:03:16.714Z] ----------------------------------------------------------------------
+[debug] [2020-04-07T03:03:16.714Z] 
+[debug] [2020-04-07T03:03:16.723Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-07T03:03:16.724Z] > authorizing via signed-in user
+[debug] [2020-04-07T03:03:16.724Z] [iam] checking project treefrog-cms-lr for permissions ["firebase.projects.get"]
+[debug] [2020-04-07T03:03:16.726Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/treefrog-cms-lr:testIamPermissions  
+
+[debug] [2020-04-07T03:03:16.986Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-07T03:03:16.991Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/treefrog-cms-lr  
+ 
+[debug] [2020-04-07T03:03:17.208Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-07T03:03:17.213Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/treefrog-cms-lr/webApps/-/config  
+ 
+[debug] [2020-04-07T03:03:17.559Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
